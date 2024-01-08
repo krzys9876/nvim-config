@@ -1,0 +1,11 @@
+-- color scheme
+return {
+  "catppuccin/nvim",
+  lazy = false,
+  name = "catppuccin",
+  priority = 1000,
+  -- predefined property config - defines what is to be executed after plugin is loaded (no need for separate require("xxx").setup())
+  config = function()
+    vim.cmd.colorscheme("catppuccin")
+  end,
+}
