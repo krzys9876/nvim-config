@@ -7,7 +7,7 @@ I started to think of using nvim after watching [The Primeagen's](https://www.yo
 After RTFM and some googling I was able to resolve this and I was ready.
 
 But hey, there came another obstacle. I use Scala quite extensivelly and it seems that the only person in the Universe that is using nvim with Scala is [Chris Kipp](https://www.youtube.com/@ChrisKipp/featured). 
-His videos were helpfull (even autocompletion worked :smile:) but I could not quite understand what was hound on under the hood.
+His videos were helpfull (even autocompletion worked :smile:) but I could not quite understand what was going on under the hood.
 
 At las I came across [typecraft](https://www.youtube.com/@typecraft_dev) amazing tutorial series and this was it! 
 I combined <code>scala-metals</code> with Python and other languages and I am officially starting my nvim adventure :smile:
