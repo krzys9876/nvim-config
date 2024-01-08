@@ -9,7 +9,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "pyright" },
+				ensure_installed = { "lua_ls", "pyright", "marksman" },
 			})
 		end,
 	},
@@ -19,6 +19,7 @@ return {
 			local lspconfig = require("lspconfig")
 			lspconfig.lua_ls.setup({})
 			lspconfig.pyright.setup({})
+      lspconfig.marksman.setup({})
 			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, { desc = "LSP definition (lsp-config)" })
 			vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "LSP code_actions (lsp-config)" })
 			vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, { desc = "LSP references (lsp-config)" })
