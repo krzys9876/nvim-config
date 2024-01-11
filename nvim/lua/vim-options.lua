@@ -9,3 +9,5 @@ vim.opt_global.completeopt = { "menuone", "noinsert", "noselect" }
 vim.o.termguicolors = true
 
 vim.cmd("set number relativenumber")
+
+--vim.cmd.colorscheme("industry")
